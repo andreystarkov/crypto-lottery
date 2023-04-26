@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <path id="a" d="M1252.02 643.26l-12.94 12.94a1.39 1.39 0 0 0 0 1.96l6.99 6.99c.54.54 1.42.54 1.96 0l12.94-12.94a.63.63 0 0 0 0-.89l-.97-.97a1.39 1.39 0 0 0-1.72-.18c-.72.44-1.62.62-2.57.4a3.28 3.28 0 0 1-2.45-2.35c-.28-1-.1-1.95.37-2.7.34-.55.28-1.26-.18-1.72l-.54-.54a.63.63 0 0 0-.9 0z"/>
+    <path id="b" d="M1236.4 659.2l-1.42-.31a1.39 1.39 0 0 1-1.05-1.67l4.07-17.83a.63.63 0 0 1 .76-.47l.73.16c.64.15 1.07.71 1.08 1.36 0 .89.36 1.78 1.12 2.49a3.28 3.28 0 0 0 3.33.68 3.35 3.35 0 0 0 1.95-1.7c.29-.59.92-.91 1.56-.77l1.34.3"/>
+    <path id="c" d="M1244.24 657.04l5.29-5.29"/>
+    <path id="d" d="M1247.11 659.91l2.64-2.64"/>
+  </defs>
+  <use fill="#fff" fill-opacity="0" stroke="#737596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="1.8" xlink:href="#a" transform="translate(-1233 -638)"/>
+  <use fill="#fff" fill-opacity="0" stroke="#737596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="1.8" xlink:href="#b" transform="translate(-1233 -638)"/>
+  <use fill="#fff" fill-opacity="0" stroke="#ffa800" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="1.8" xlink:href="#c" transform="translate(-1233 -638)"/>
+  <use fill="#fff" fill-opacity="0" stroke="#ffa800" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="1.8" xlink:href="#d" transform="translate(-1233 -638)"/>
+</svg>

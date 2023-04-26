@@ -1,0 +1,22 @@
+.tooltip-wrapper .__react_component_tooltip.type-dark{
+    padding: 0.4375rem 0.75rem;
+    font-size: 0.75rem;
+    color: #737594;
+    background-color: #0a0a27;
+}
+
+.tooltip-wrapper .__react_component_tooltip.type-dark.place-top::after {
+  border-top-color: #0a0a27;
+}
+
+.tooltip-wrapper .__react_component_tooltip.type-dark.place-right::after {
+  border-right-color: #0a0a27;
+}
+
+.tooltip-wrapper .__react_component_tooltip.type-dark.place-left::after {
+  border-left-color: #0a0a27;
+}
+
+.tooltip-wrapper .__react_component_tooltip.type-dark.place-bottom::after {
+  border-bottom-color: #0a0a27;
+}

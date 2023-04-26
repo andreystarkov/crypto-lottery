@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="7" viewBox="0 0 7 7">
+    <defs>
+        <path id="n18ea" d="M551 554.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+        <clipPath id="n18eb">
+            <use fill="#fff" xlink:href="#n18ea"/>
+        </clipPath>
+    </defs>
+    <g>
+        <g transform="translate(-551 -551)">
+            <use fill="#1a1a3d" xlink:href="#n18ea"/>
+            <use fill="#fff" fill-opacity="0" stroke="#313152" stroke-miterlimit="50" stroke-width="4" clip-path="url(&quot;#n18eb&quot;)" xlink:href="#n18ea"/>
+        </g>
+    </g>
+</svg>

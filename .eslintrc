@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "prettier",
+    "prettier/react",
+    "plugin:react/recommended",
+    "standard"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-undef": 1,
+    "no-unused-vars": 1,
+    "space-before-function-paren": 2,
+    "react/prop-types": 0,
+    "camelcase": 0,
+    "eol-last": 1,
+    "no-multiple-empty-lines": 1,
+    "comma-dangle": 1,
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
+    "react/sort-comp": [1],
+    "react/destructuring-assignment": [1, "always"],
+    "jsx-quotes": [2, "prefer-single"],
+    "no-useless-escape": 0
+  }
+}

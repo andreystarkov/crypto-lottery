@@ -1,0 +1,3 @@
+export const CONTRACT_ADDRESS = '0xF65fa3d3c6Ac521d4aB8435f7432b92ccDFb3C31'.toLowerCase()
+export const STORAGE_ADDRESS = '0xcad0a04f9516e015ff05fa515fef1768b7e29263'.toLowerCase()
+export const FACTORY_ADDRESS = '0xe98E13D1b95422697f5F5d446c45cC10031fB287'.toLowerCase()

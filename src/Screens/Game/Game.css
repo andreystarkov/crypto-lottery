@@ -1,0 +1,110 @@
+.payment-fixed {
+  position: fixed;
+  top: 4rem;
+}
+
+.rmc-picker,
+.rmc-multi-picker {
+  height: 9.375rem;
+  /*50*3*/
+}
+.rmc-multi-picker {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.rmc-picker-item {
+
+  font-size: 1rem;
+  font-weight: 600;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  padding: 0 10px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.rmc-picker {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  -ms-flex: 1;
+      flex: 1;
+  text-align: center;
+}
+.rmc-picker-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 3;
+  background-image: linear-gradient(180deg, #131331 0%, rgba(23, 23, 55, 0.63) 50%, rgba(25, 25, 58, 0.43) 77%, rgba(26, 26, 61, 0) 100%), linear-gradient(0deg, #131331 0%, rgba(23, 23, 55, 0.63) 50%, rgba(25, 25, 58, 0.43) 77%, rgba(26, 26, 61, 0) 100%);
+  background-position: top, bottom;
+  background-size: 100% 204px;
+  background-repeat: no-repeat;
+}
+.rmc-picker-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-left: 1px solid #73738f;
+}
+
+.rmc-picker-indicator {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.125rem;
+  position: absolute;
+  left: 0;
+  top: 102px;
+  z-index: 3;
+  box-shadow: inset 0 0.063rem 0.75rem rgba(0, 0, 0, 0.5);
+}
+
+.rmc-picker:first-child {
+  padding-left: 0.875rem
+}
+
+.rmc-picker:last-child {
+  padding-right: 0.875rem;
+}
+
+.rmc-picker:first-child .rmc-picker-content {
+  border-left: none;
+  padding-left: 0.875rem !important;
+}
+
+
+.rmc-picker:first-child .rmc-picker-indicator {
+  left: 0.875rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  width: calc(100% - 0.875rem);
+}
+
+.rmc-picker:last-child .rmc-picker-indicator {
+  right: 0.875rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  width: calc(100% - 0.875rem);
+}
+
+.rmc-picker:last-child .rmc-picker-content {
+  padding-right: 0.875rem !important;
+}
+
+.rmc-picker:last-child .rmc-picker-item {
+  color: #fc992b;
+}

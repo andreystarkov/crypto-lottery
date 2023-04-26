@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="69" viewBox="0 0 62 69">
+    <defs>
+        <path id="k11pa" d="M110.16 456.2v4.46h-4.2v-4.45c-4.45-.6-7.26-3.18-7.42-7h4.78c.23 1.9 2.16 3.12 4.94 3.12 2.57 0 4.39-1.23 4.39-3 0-1.5-1.18-2.37-4.08-2.99l-3.08-.65c-4.3-.9-6.41-3.12-6.41-6.7 0-3.82 2.67-6.5 6.89-7.17v-4.5h4.19v4.5c4.1.65 6.86 3.3 6.99 6.9h-4.65c-.23-1.85-1.97-3.09-4.35-3.09-2.48 0-4.11 1.14-4.11 2.93 0 1.45 1.13 2.28 3.9 2.87l2.84.6c4.75 1 6.8 3.03 6.8 6.67 0 4.13-2.78 6.86-7.42 7.5z"/>
+        <path id="k11pc" d="M87.34 474.37c0-3.21-6.2-5.81-13.87-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11pe" d="M59.6 474.37c0-3.21 6.21-5.81 13.87-5.81 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <path id="k11pg" d="M87.34 468.88c0-3.21-6.2-5.81-13.87-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11pi" d="M59.6 468.88c0-3.21 6.21-5.81 13.87-5.81 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <path id="k11pk" d="M84.27 463.38c0-3.21-6.2-5.81-13.87-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11pm" d="M56.53 463.38c0-3.21 6.21-5.81 13.87-5.81 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <path id="k11po" d="M86.73 457.89c0-3.21-6.2-5.81-13.87-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11pq" d="M58.99 457.88c0-3.2 6.21-5.8 13.87-5.8 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <path id="k11ps" d="M107.4 485.36c0-3.21-6.22-5.81-13.88-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11pu" d="M79.65 485.36c0-3.21 6.21-5.81 13.87-5.81 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <path id="k11pw" d="M107.4 479.87c0-3.21-6.22-5.81-13.88-5.81-7.66 0-13.87 2.6-13.87 5.8v4.28c0 3.2 6.21 5.8 13.87 5.8 7.66 0 13.87-2.6 13.87-5.8v-4.27z"/>
+        <path id="k11py" d="M79.65 479.87c0-3.21 6.21-5.81 13.87-5.81 7.66 0 13.87 2.6 13.87 5.8 0 3.21-6.21 5.81-13.87 5.81-7.66 0-13.87-2.6-13.87-5.8z"/>
+        <linearGradient id="k11pb" x1="108.06" x2="108.06" y1="460.61" y2="427.52" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#edecf5"/>
+            <stop offset="1" stop-color="#bcb8da"/>
+        </linearGradient>
+        <linearGradient id="k11pd" x1="68.32" x2="93.1" y1="476.57" y2="476.26" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pf" x1="73.47" x2="73.47" y1="468.8" y2="480.24" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11ph" x1="68.32" x2="93.1" y1="471.07" y2="470.77" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pj" x1="73.47" x2="73.47" y1="463.31" y2="474.75" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pl" x1="65.25" x2="90.03" y1="465.58" y2="465.27" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pn" x1="70.4" x2="70.4" y1="457.81" y2="469.25" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pp" x1="67.71" x2="92.49" y1="460.08" y2="459.78" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pr" x1="72.86" x2="72.86" y1="452.32" y2="463.76" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pt" x1="88.37" x2="113.16" y1="487.56" y2="487.25" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pv" x1="93.53" x2="93.53" y1="479.79" y2="491.24" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11px" x1="88.37" x2="113.16" y1="482.06" y2="481.76" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f8c354"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+        <linearGradient id="k11pz" x1="93.53" x2="93.53" y1="474.3" y2="485.74" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffa900"/>
+            <stop offset="1" stop-color="#ff7f00"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g transform="translate(-56 -427)">
+            <g>
+                <use fill="url(#k11pb)" xlink:href="#k11pa"/>
+            </g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11pd)" xlink:href="#k11pc"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pf)" xlink:href="#k11pe"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11ph)" xlink:href="#k11pg"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pj)" xlink:href="#k11pi"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11pl)" xlink:href="#k11pk"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pn)" xlink:href="#k11pm"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11pp)" xlink:href="#k11po"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pr)" xlink:href="#k11pq"/>
+                        </g>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11pt)" xlink:href="#k11ps"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pv)" xlink:href="#k11pu"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <use fill="url(#k11px)" xlink:href="#k11pw"/>
+                        </g>
+                        <g>
+                            <use fill="url(#k11pz)" xlink:href="#k11py"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

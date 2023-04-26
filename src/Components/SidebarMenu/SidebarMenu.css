@@ -1,0 +1,14 @@
+.bm-cross-button {
+  /* position: fixed;
+  left: 1rem;
+  top: 3rem; */
+  display: none;
+}
+
+.bm-item-list {
+  overflow-y: hidden;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

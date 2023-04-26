@@ -1,0 +1,155 @@
+@import url("https://unpkg.com/basscss@8.0.2/css/basscss.min.css");
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200,300,300i,400,400i,500,600,700,800');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+
+body {
+  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+  background-color: #0e0e30;
+}
+
+.root {
+  flex: 1
+}
+
+ :root {
+   --h1: 2rem;
+   --h2: 1.5rem;
+   --h3: 1.25rem;
+   --h4: 1rem;
+   --h5: .875rem;
+   --h6: .75rem;
+
+   --base-red: #ff5630;
+   --base-orange: #ffab00;
+   --base-green: #36b37e;
+   --base-purple: #6554c0;
+   --base-cyan: #00b8d9;
+   --base-blue: #0065ff;
+   --Base-darkestblue: #0b1328;
+   --base-darkblue: #141f42;
+   --base-blackblue: #070c19;
+
+   --gradient-yellow: linear-gradient(135deg, #ffb037 0%, #f7841d 100%);
+   --gradient-blue: linear-gradient(135deg, #0091f8 0%, #6942ef 100%);
+ }
+
+ body.noscroll {
+     position: fixed;
+     overflow-y: scroll;
+     width: 100%;
+ }
+
+ .slick-slide div {
+   outline: none !important;
+ }
+
+ ::-webkit-resizer {
+  background: rgba(255,255,255,0.1);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
+  border: 0.5rem solid rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: rgba(255,255,255,0.1);
+}
+
+::-webkit-scrollbar
+{
+	width: 0.4rem;
+	background-color: rgba(255,255,255,0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgba(255,255,255,0.25);
+}
+
+.out-animation {
+  transition: all 0.38s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-duration: 0.38s;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.over-absolute {
+  position: relative;
+  z-index: 1;
+}
+
+.animation-delay {
+  animation-delay: 0.4s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.animation-default-config {
+  animation-duration: 0.35s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation-rotate {
+  animation: rotating 1s ease infinite;
+}
+
+.animation-rotate-default-state {
+  transform: rotate(0deg);
+  transition: 0.5s ease;
+}
+
+/*
+ cubic-bezier(0.165, 0.84, 0.44, 1);
+ cubic-bezier(0.785, 0.135, 0.15, 0.86);
+ cubic-bezier(0.375, 0.585, 0.32, 1.275);
+ cubic-bezier(0.575, 0.885, 0.32, 1.275); <- wobbly
+ cubic-bezier(0.39, 0.575, 0.565, 1); <- smooth
+*/
+
+.hidden {
+  opacity: 0;
+}
+
+.opacity-half {
+  opacity: 0.5;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+  transition: height 0.6s ease;
+}
+
+/* TODO: grid hack */
+@media (max-width: 576px) {
+  .ndueo {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

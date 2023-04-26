@@ -1,0 +1,128 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-45px);
+}
+
+.content-loader {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 90px;
+  height: 90px;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg) rotate(45deg);
+}
+
+.spinner-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: #FED750;
+  animation: spinner-move 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite both;
+  transform-style: preserve-3d;
+}
+
+.spinner-box:nth-child(1) {
+  animation-delay: -1s;
+}
+
+.spinner-box:nth-child(2) {
+  animation-delay: -2s;
+}
+
+.spinner-box:nth-child(3) {
+  animation-delay: -3s;
+}
+
+.spinner-box:before, .spinner-box:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.spinner-box:before {
+  top: 100%;
+  left: 0;
+  background: #E6A32F;
+  transform-origin: center top;
+  transform: rotateX(-90deg);
+}
+
+.spinner-box:after {
+  top: 0;
+  left: 100%;
+  background: #C87932;
+  transform-origin: center left;
+  transform: rotateY(90deg);
+}
+
+@keyframes spinner-move {
+  0%, 100% {
+    transform: none;
+  }
+  12.5% {
+    transform: translate(30px, 0);
+  }
+  25% {
+    transform: translate(60px, 0);
+  }
+  37.5% {
+    transform: translate(60px, 30px);
+  }
+  50% {
+    transform: translate(60px, 60px);
+  }
+  62.5% {
+    transform: translate(30px, 60px);
+  }
+  75% {
+    transform: translate(0, 60px);
+  }
+  87.5% {
+    transform: translate(0, 30px);
+  }
+}
+
+.centered {
+	width:400px;
+	height:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1,.blob-2 {
+	width:70px;
+	height:70px;
+	position:absolute;
+	background:#3d3f57;
+	border-radius:50%;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.blob-1 {
+	left:20%;
+	animation:osc-l 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+.blob-2 {
+	left:80%;
+	animation:osc-r 2.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+	background:#737594;
+}
+
+@keyframes osc-l {
+	0%{left:20%;}
+	50%{left:50%;}
+	100%{left:20%;}
+}
+@keyframes osc-r {
+	0%{left:80%;}
+	50%{left:50%;}
+	100%{left:80%;}
+}

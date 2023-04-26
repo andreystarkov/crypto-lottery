@@ -1,0 +1,30 @@
+
+body .top-header {
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+
+
+body .header-wrapper {
+  height: 4.5rem;
+}
+
+body .top-header.header-fixed {
+  position: fixed;
+  animation-duration: 0.45s;
+  animation-timing-function: ease;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 5555;
+  background-color: #0e0e30a7;
+}
+
+body .top-header.header-fixed.no-background {
+  background-color: transparent;
+}
